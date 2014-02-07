@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Silencium</title>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+	<style type="text/css">
+		/* Prevent copy paste for all elements except text fields */
+		*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+		input, textarea  { -webkit-user-select:text; }
+		body { background-color:white; color:black }
+	</style>
+    <!-- Intel XDK Stuff -->
+	<script src="intelxdk.js"></script>
+    <!-- jQuery alike -->
+	<script src="js/minified.js"></script>
+    <!-- OTR -->
+    <script src="js/otr/salsa20.js"></script>
+    <script src="js/otr/bigint.js"></script>
+    <script src="js/otr/crypto.js"></script>
+    <script src="js/otr/eventemitter.js"></script>
+    <script src="js/otr/otr.js"></script>
+
+    <script src="http://cdn.peerjs.com/0.3/peer.js"></script>
+	</script>
+</head>
+<body>
+    <h1>Boo!</h1>
+    <ul id="contacts">
+    </ul>
+    <h2>Contacts</h2>
+    <p id="moins"></p>
+    <div style="position: absolute" id="bleh">a</div>
+	<script src="js/silencium.js"></script>
+</body>
+</html>
